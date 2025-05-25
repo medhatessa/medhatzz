@@ -1,0 +1,21 @@
+name: medha
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: aaa.
+    runs-on: windows-latest
+    timeout-minutes: 230
+    
+    steps:
+      - name: aa
+        run: |
+          Invoke-WebRequest -Uri "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          cmd /c Downloads.bat
+
+      - name: aaeM
+        run: cmd /c show.bat
+
+      - name: aaer
+        run: cmd /c loop.bat
